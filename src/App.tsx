@@ -95,7 +95,7 @@ function App() {
     <div className="min-h-screen bg-[#0a0a0a] text-gray-200 p-4 md:p-8 font-sans pb-24 overflow-x-hidden">
       <header className="w-full max-w-4xl mx-auto mb-8 flex justify-between items-center">
         <h1 className="text-xl md:text-2xl font-bold tracking-tighter text-white">
-          INSTA<span className="text-gray-500">SLICER</span>
+          GK<span className="text-gray-500">SPLIT</span>
         </h1>
         <div className="text-xs md:text-sm text-gray-500 bg-gray-900 px-2 py-1 rounded border border-gray-800">
           v0.2.2 Mobile Fix
