@@ -75,3 +75,26 @@ export default defineConfig([
 # insta-slicer
 # insta-slicer
 # insta-slicer
+
+# 📐 PhotoFlow: Lossless Panoramic Engine
+
+**Engineering Utility by George (Kuo-Wei) Kao, PhD**
+
+> "A precise, coordinate-based slicing engine designed to preserve the integrity of high-resolution underwater panoramas."
+
+### 🚀 The Problem
+Social media compression algorithms often degrade the details of wide-angle marine photography. Standard cropping tools lack the pixel-perfect precision required for seamless carousel displays.
+
+### 💡 The Engineering Solution
+I built this web application (deployed on Vercel) to solve a specific geometric problem:
+* **Zero-Loss Slicing:** Maintains 100% of original pixel density.
+* **Geometric Continuity:** Calculates exact split points for seamless 1x3 grid layouts.
+* **Client-Side Processing:** Ensures privacy and speed by processing images directly in the browser (no server upload required).
+
+### 🛠 Tech Stack
+* **Framework:** Vue.js / React (Modern Web)
+* **Deployment:** Vercel (CI/CD Pipeline)
+* **Core Logic:** HTML5 Canvas API
+
+---
+[👉 Try the Live Tool](https://insta-slicer.vercel.app)
